@@ -13,8 +13,11 @@ An open-source crypto currency exchange
 •Installer with minimal steps [![ALPHA]()(http://https://gist.githubusercontent.com/scatterp/d8e074009970ed9187df97203274006a/raw/5c992a84ee24b568fd33ce57927e903d0bffcc6e/install1.sh)]
 
 •Merge in welcome page from coinxpro.com
+
 •all code has refactored 
+
 •JRuby compatability and executes faster than previous versions at every step 
+
 •FIX financial information exchange API  added to bring the support of the entire financial eco system allowing for trading clients banks etc to connect with the exchange
 
 
