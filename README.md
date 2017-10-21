@@ -10,7 +10,8 @@ An open-source crypto currency exchange
    please feel free to post issues and they will be handled rapidly.
 
 ### Todo (Coming soon in priority order)
-•Installer with minimal steps [![ALPHA](gist.github.com)(http://https://gist.githubusercontent.com/scatterp/d8e074009970ed9187df97203274006a/raw/5c992a84ee24b568fd33ce57927e903d0bffcc6e/install1.sh)]
+•Installer with minimal steps [![ALPHA]()(http://https://gist.githubusercontent.com/scatterp/d8e074009970ed9187df97203274006a/raw/5c992a84ee24b568fd33ce57927e903d0bffcc6e/install1.sh)]
+
 •Merge in welcome page from coinxpro.com
 •all code has refactored 
 •JRuby compatability and executes faster than previous versions at every step 
