@@ -1,11 +1,3 @@
-### Introduction 
-   welcome to the most advanced peatio release available all code has been refactored for JRuby compatability and executes faster than
-   previous versions at every step FIX financial information exchange API has been added to bring the support of the entire financial
-   eco system allowing for trading clients banks etc to connect with the exchange. also various UI and visual fixes have been added
-   (more to come) and a market making system which will provide a trading partner for your users.
-   please feel free to post issues and they will be handled rapidly.
-
-
 Deploy production server on Ubuntu 16.04
 -------------------------------------
 
