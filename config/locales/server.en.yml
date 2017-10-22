@@ -136,7 +136,7 @@ en:
         activated: Activated
         activated?: "Activated?"
         id_document_verified?: "Id Document Verified?"
-        two_factor_activated?: "Tow Factor Activated?"
+        two_factor_activated?: "Two Factor Activated?"
         phone_number: Phone Number
       two_factor/sms:
         country: Country
@@ -228,8 +228,7 @@ en:
         activation:
           attributes:
             base:
-              too_soon: An activation email was sent to your email address less than
-                5 minutes ago.
+              too_soon: An activation email was sent to your email address less than 5 minutes ago.
         fund_source:
           attributes:
             address:
@@ -265,8 +264,7 @@ en:
         less: balance less
         verify: verify error
         strength: is invalid password strength
-        password: Please enter a password at least 6 characters and it's better to
-          contain uppercase and lowercase letters and numbers.
+        password: Please enter a password at least 6 characters and it's better to contain uppercase and lowercase letters and numbers.
         orders:
           price: limit price %{l} ~ %{h}
           sum: limit sum price %{l} ~ %{h}
@@ -292,36 +290,80 @@ en:
   market:
     currency:
       btc: BTC
-      cny: CNY
+      eth: ETH
+      eur: EUR
       doge: DOGE
       pts: PTS
       ltc: LTC
+      bcc: BCC
+      eth: ETH
+      zec: ZEC
+      bts: BTS
+      etc: ETC
   currency:
     satoshi:
       key: BTC
       code: BTC
       name: Bitcoin
       format: '0,0.0000'
+    ether:
+      key: ETH
+      code: ETH
+      name: Ethereum
+      format: '0,0.0000'
     bitsharesx:
       key: BTS
       code: BTSX
       name: BitsharesX
       format: '0,0.0000'
-    renminbi:
-      key: CNY
-      code: CNY
-      name: Chinese Yuan
+    euro:
+      key: EUR
+      code: EUR
+      name: European Euro
       format: '0,0.00'
     dogecoin:
       key: DOG
       code: DOGE
       name: Dogecoin
       format: '0,0.0000'
+    ether:
+      key: ETH
+      code: ETH
+      name: Ethereum
+      format: '0,0.0000'     
     protoshare:
       key: PTS
       code: PTS
       name: Protoshare
       format: '0,0.0000'
+    etc:
+      key: ETC
+      code: ETC
+      name: ETC
+      format: '0,0.0000'
+    ltc:
+      key: LTC
+      code: LTC
+      name: LTC
+      format: '0,0.0000'
+    bcc:
+      key: BCC
+      code: BCC
+      name: BCC
+      format: '0,0.0000'
+    zec:
+      key: ZEC
+      code: ZEC
+      name: ZEC
+      format: '0,0.0000'
+    bts:
+      key: BTS
+      code: BTS
+      name: BTS
+      format: '0,0.0000'
+
+
+
   datagrid:
     empty: no data found
     filters:
@@ -467,6 +509,13 @@ en:
       latency: 1 confirmation
       transfer: Manual
       go: Deposit
+    ether:
+      key: ethereum
+      title: Ethereum Deposits
+      intro: Deposit Ethereum from your own wallet address to Tradealtcoin account
+      latency: 1 confirmation
+      transfer: Manual
+      go: Deposit
   deposits/bank:
     aasm_state:
       submitting: Submitting
@@ -570,26 +619,22 @@ en:
         two_factors_error: Two factor authentication failed.
       banks:
         update:
-          notice: Bank Transfer withdrawal application has been submitted, we will
-            process it as soon as possible
+          notice: Bank Transfer withdrawal application has been submitted, we will process it as soon as possible
           alert_two_factor: Two-Factor Authentication error
         destroy:
-          notice: Bank Transfer withdraw has been cancelled, frozen amount has been
-            returned to your account.
+          notice: Bank Transfer withdraw has been cancelled, frozen amount has been returned to your account.
         new:
           fund_source: Select Fund Source
           manage_fund_source: Manage Fund Source
           submit: Submit
           allin: All-In
         create:
-          notice: Withdrawal request successfully submitted. Use the info below to
-            complete the bank transfer.
+          notice: Withdrawal request successfully submitted. Use the info below to complete the bank transfer.
       satoshis:
         destroy:
           notice: Withdraw been canceled, frozen balance has returned to your account
         update:
-          notice: Withdraw request is submit successful, we will process it as soon
-            as possible
+          notice: Withdraw request is submit successful, we will process it as soon as possible
           alert_two_factor: Two-Factor Authentication error
         new:
           submit: Submit
@@ -597,15 +642,12 @@ en:
           fund_source_label: Label
           manage_fund_source: Manage Fund Source
         create:
-          notice: Withdrawal request successfully submitted. Use the info below to
-            complete the bank transfer.
+          notice: Withdrawal request successfully submitted. Use the info below to complete the bank transfer.
     tickets:
       index:
         new_ticket: New Ticket
       new:
-        intro: If you have any problems, start a new discussion so that our staff
-          can help you out as soon as possible. All discussions are private between
-          you and the support staff.
+        intro: If you have any problems, start a new discussion so that our staff can help you out as soon as possible. All discussions are private between you and the support staff.
       ticket_create_succ: Ticket created successfully.
       ticket_create_fail: Failed to create ticket, please try again latter.
       comment_succ: Comment successfully.
@@ -621,8 +663,7 @@ en:
       view_open_tickets: View open tickets
     account_versions:
       index:
-        description: Every transaction and every penny of income in Peatio are well
-          documented and exhaustive.
+        description: Every transaction and every penny of income in Peatio are well documented and exhaustive.
     api_tokens:
       user_tokens:
         no_token: You have no API token.
@@ -669,23 +710,21 @@ en:
       index:
         liability-proof: Proof of Liabilities
         btc-assets: BTC Assets
-        cny-assets: CNY Assets
+        eth-assets: ETH Assets
+        eur-assets: EUR Assets
       liability_tabs:
         verify-btc: Verify My BTC Assets
-        verify-cny: Verify My CNY Assets
+        verify-eth: Verify My ETH Assets
+        verify-eur: Verify My EUR Assets
         btc-assets-total: 'Total BTC assets of exchange: '
-        cny-assets-total: 'Total CNY assets of exchange: '
+        eth-assets-total: 'Total ETH assets of exchange: '
+        eur-assets-total: 'Total EUR assets of exchange: '
       liability_proof:
         title: Proof of Liabilities
-        intro: As an exchange, our liabilities refer to the sum of money (in both
-          crypto currencies and fiat currencies) that our users trust us with. On
-          this page, we present you our liabilities. We also provide you a way to
-          verify that your account balance is indeed part of our liabilities.
-        how-to-verify: How to verify an exchange is solvent?
+        intro: As an exchange, our liabilities refer to the sum of money (in both crypto currencies and fiat currencies) that our users trust us with. On this page, we present you our liabilities. We also provide you a way to verify that your account balance is indeed part of our liabilities. how-to-verify: How to verify an exchange is solvent?
         how-to-verify-uri: https://peatio.com/documents/liability_proof
       liability_data:
-        liability-proof-generating: Proof of Liability generation in process, please
-          come back after 30 minutes.
+        liability-proof-generating: Proof of Liability generation in process, please come back after 30 minutes.
         root-json: Root node
         partial-tree: 'My %{currency} Assets: '
         get-partial-tree: Get my partial tree data
@@ -696,28 +735,38 @@ en:
         intro: All of exchange's BTC assets are listed here.
         total: Total BTC Assets
         address: Address
-      cny_assets:
-        title: CNY Assets
-        intro: All of exchange's CNY assets are listed here.
-        total: Total CNY Assets
-        description: " <p>For supervision, you can inquiry the balance of our deposit
-          account:</p> <p>Bank: %{bank}</p> <p>Account： %{address}</p> <p>Inquiry
-          Password： %{password}</p> <p>Inquiry Tel.： %{tel}</p>"
+      eth_assets:
+        title: ETH Assets
+        intro: All of exchange's ETH assets are listed here.
+        total: Total ETH Assets
+        address: Address
+      eur_assets:
+        title: EUR Assets
+        intro: All of exchange's EUR assets are listed here.
+        total: Total EUR Assets
+        description: " <p>For supervision, you can inquiry the balance of our deposit account:</p> <p>Bank: %{bank}</p> <p>Account： %{address}</p> <p>Inquiry Password： %{password}</p> <p>Inquiry Tel.： %{tel}</p>"
       partial_tree:
         success: 'Success! Verification data generated at: %{timestamp}'
     funds:
       show:
         account_history: Account History
-        cny_format: '0.00'
+        eur_format: '0.00'
         btc_format: '0.00000000'
+        eth_format: '0.00000000'
         reason:
-          cny:
+          eur:
             strike_add: Plus
             strike_sub: Sub
             deposit: Deposit
             withdraw: Withdraw
             fix: Fix
           btc:
+            strike_add: Plus
+            strike_sub: Sub
+            deposit: Deposit
+            withdraw: Withdraw
+            fix: Fix
+          eth:
             strike_add: Plus
             strike_sub: Sub
             deposit: Deposit
@@ -764,7 +813,7 @@ en:
       market_list:
         all: All Markets
         all_html: "<i class='fa fa-check'></i><span>All Markets</span>"
-        cny_html: "<i class='fa fa-check'></i><span>CNY Markets</span>"
+        eur_html: "<i class='fa fa-check'></i><span>EUR Markets</span>"
         btc_html: "<i class='fa fa-check'></i><span>BTC Markets</span>"
         price: Price
         change: "24h %"
@@ -867,8 +916,7 @@ en:
         amount: Amount
         time: Place Time
       mask:
-        warning: Please <a class=text-up href='/'>Sign up</a> or <a class=text-up
-          href='/'>Sign in</a> for operation
+        warning: Please <a class=text-up href='/'>Sign up</a> or <a class=text-up href='/'>Sign in</a> for operation
       klime_chart:
         title: Candlestick Charts
       global:
@@ -883,46 +931,35 @@ en:
         safety_instruction: In order to protect your bitcoins and personal information, we strongly suggest that you use Two-Factor Authentication.
         reset_password: Rest your Password
         reauthenticate: Authentication
-        activated: An  email has been sent to your mailbox, please check it for verification
-          as soon as possible. If you do not received it , please click "send it again"
-          button
+        activated: An  email has been sent to your mailbox, please check it for verification as soon as possible. If you do not received it , please click "send it again" button
         auth-activated: Please confirm your email address first.
         auth-verified: Please verify your account first.
         email:
           title: E-mail verification
-          description: Your e-mail has not been verified, click the "Send Mail" button
-            to complete the verification
-          description-activated: Your email adress has been verified successfully,
-            remember and protect this e-mail address, it is the single certificate
-            for your  account
+          description: Your e-mail has not been verified, click the "Send Mail" button to complete the verification
+          description-activated: Your email adress has been verified successfully,remember and protect this e-mail address, it is the single certificate for your  account
           resend: Send it again
           activated: Verified
           go: Set
         phone_number:
           title: Phone Number
-          description: Providing a phone number will make your account more secure.
-            You can quickly reset your password and your account operations will be
-            notified.
+          description: Providing a phone number will make your account more secure. You can quickly reset your password and your account operations will be notified.
           go: Set
           verified: Verified
           hint: "Verified number %{hint}"
         two_factor_auth:
           title: Two-Factor Authentication
-          description: Two-Factor Authentication provides another layer of security
-            to your account.
+          description: Two-Factor Authentication provides another layer of security to your account.
           enable: Enable
           disable: Disable
         verification:
           title: Verify Account
-          description: Help keep the bad guys out of your account by using both your
-            password and your phone
+          description: Help keep the bad guys out of your account by using both your password and your phone
           go: Submit
           verified: Verified
         asset_passwords:
           title: Asset password
-          description: The asset password will be needed when you withdraw your money.
-            It is strongly recommended that you do not use the same password as your
-            account password!
+          description: The asset password will be needed when you withdraw your money. It is strongly recommended that you do not use the same password as your account password!
           go: Set
         passwords:
           title: Password
@@ -955,8 +992,9 @@ en:
         balance: Balance
         available: Available
         title: "%{icon} %{c} Account"
-        cny_format: '0.00'
+        eur_format: '0.00'
         btc_format: '0.00000000'
+        eth_format: '0.00000000'
         total: Total
   guides:
     private:
@@ -968,8 +1006,7 @@ en:
         panel: API Tokens
         index:
           title: My Tokens
-          intro: A list of all your API tokens. An empty 'IP Whitelist' means any
-            ip is allowed to use the token.
+          intro: A list of all your API tokens. An empty 'IP Whitelist' means any ip is allowed to use the token.
         new:
           title: Create API Token
         create:
@@ -984,8 +1021,7 @@ en:
         panel: Real-name Authentication
         new:
           title: Submit real-name authentication information
-          intro: In line with the national laws , identity verification is required.
-            please verify your account to proceed.
+          intro: In line with the national laws , identity verification is required. please verify your account to proceed.
     panels:
       balance: Account
     verify:
@@ -1000,14 +1036,10 @@ en:
       panel: Password
       new:
         title: Reset Password
-        intro: Please enter your e-mail address which is verified by your  account,
-          enter verification code to submit,and login your mailbox, follow the prompts
-          to reset your password.
+        intro: Please enter your e-mail address which is verified by your  account, enter verification code to submit,and login your mailbox, follow the prompts to reset your password.
       create:
         title: Reset password
-        intro: Please enter your e-mail address which is verified by your  account,
-          enter verification code to submit,and login your mailbox, follow the prompts
-          to reset your password.
+        intro: Please enter your e-mail address which is verified by your  account, enter verification code to submit,and login your mailbox, follow the prompts to reset your password.
       edit:
         title: Set Password
       update:
@@ -1016,16 +1048,15 @@ en:
       panel: Login
       new:
         title: Login my account
-        intro: Login Peatio now for you to exchange.
+        intro: Login Cryex24.
       failure:
         title: Login my account
-        intro: Login Peatio now for you to exchange.
+        intro: Login Cryex24.
     identities:
       panel: Create Account
       new:
         title: Create My Account
-        intro: This will be your only ID on Peatio which is necessary for your exchange
-          , deposit and withdrawal . please fill it out carefully.
+        intro: This will be your only ID on Cryex24 which is necessary for your exchange, deposit and withdrawal . please fill it out carefully.
       edit:
         panel: My Account
         title: Reset Password
@@ -1040,7 +1071,7 @@ en:
         email: E-mail Address
         password: Password
       identity:
-        email: Example：xiaobai@example.com
+        email: Example：user@example.com
         password: Please set your login password
         password_confirmation: Confirm your password
         edit:
@@ -1067,30 +1098,22 @@ en:
       deposit:
         bank:
           sum: "<a target='_balance' href='#'>Fee structure</a>"
-          member_name: "<span class='text-danger'>Recharge bank account name must
-            match the name with your real name authentication</span>"
-          sn: "<span class='text-danger'>Please copy the SN in your bank transfer's
-            message, otherwise we can not process your order quickly.</span>"
+          member_name: "<span class='text-danger'>Recharge bank account name must match the name with your real name authentication</span>"
+          sn: "<span class='text-danger'>Please copy the SN in your bank transfer's message, otherwise we can not process your order quickly.</span>"
       two_factor:
-        otp_secret: We recommend that you back up QR code image or ciphertext to avoid
-          that you accidental loss of the phone for the inconvenience.
-        otp: Your validator will re-generate a new password every thirty seconds,
-          please input timely.
+        otp_secret: We recommend that you back up QR code image or ciphertext to avoid that you accidental loss of the phone for the inconvenience.
+        otp: Your validator will re-generate a new password every thirty seconds, please input timely.
       identity:
-        password: Set a password which has at least 6 characters and it's better to
-          contain uppercase and lowercase letters and numbers.
+        password: Set a password which has at least 6 characters and it's better to contain uppercase and lowercase letters and numbers.
       reset_password:
-        password: Set a password which has at least 6 characters and it's better to
-          contain uppercase and lowercase letters and numbers.
+        password: Set a password which has at least 6 characters and it's better to contain uppercase and lowercase letters and numbers.
       id_document:
         name: Please fill in the name which is consistent with your Credentials.
       withdraw:
         bank:
-          member_name: "<span class='text-danger'>Withdraw bank account name must
-            match your name used for real-name authentication</span>"
+          member_name: "<span class='text-danger'>Withdraw bank account name must match your name used for real-name authentication</span>"
           sum: "<a target='_balance' href='#'>Fee structure</a>"
-          fund_extra: If your bank is no longer in the list, please contact customer
-            service
+          fund_extra: If your bank is no longer in the list, please contact customer service
         satoshi:
           sum: "<a target='_balance' href='#'>Fee structure</a>"
     creating: Creating...
@@ -1262,39 +1285,26 @@ en:
     authorizations:
       new:
         title: Peatio Application Authorization
-        authorize_html: Authorize <strong class='text-info'>%{name}</strong> to use
-          your account?
+        authorize_html: Authorize <strong class='text-info'>%{name}</strong> to use your account?
         scopes: 'This application will be able to:'
         authorize: Authorize
         deny: Deny
     errors:
       messages:
-        invalid_request: The request is missing a required parameter, includes an
-          unsupported parameter value, or is otherwise malformed.
+        invalid_request: The request is missing a required parameter, includes an unsupported parameter value, or is otherwise malformed.
         invalid_redirect_uri: The redirect uri included is not valid.
-        unauthorized_client: The client is not authorized to perform this request
-          using this method.
+        unauthorized_client: The client is not authorized to perform this request using this method.
         access_denied: The resource owner or authorization server denied the request.
         invalid_scope: The requested scope is invalid, unknown, or malformed.
-        server_error: The authorization server encountered an unexpected condition
-          which prevented it from fulfilling the request.
-        temporarily_unavailable: The authorization server is currently unable to handle
-          the request due to a temporary overloading or maintenance of the server.
-        credential_flow_not_configured: Resource Owner Password Credentials flow failed
-          due to Doorkeeper.configure.resource_owner_from_credentials being unconfigured.
-        resource_owner_authenticator_not_configured: Resource Owner find failed due
-          to Doorkeeper.configure.resource_owner_authenticator being unconfiged.
-        unsupported_response_type: The authorization server does not support this
-          response type.
-        invalid_client: Client authentication failed due to unknown client, no client
-          authentication included, or unsupported authentication method.
-        invalid_grant: The provided authorization grant is invalid, expired, revoked,
-          does not match the redirection URI used in the authorization request, or
-          was issued to another client.
-        unsupported_grant_type: The authorization grant type is not supported by the
-          authorization server.
-        invalid_resource_owner: The provided resource owner credentials are not valid,
-          or resource owner cannot be found
+        server_error: The authorization server encountered an unexpected condition which prevented it from fulfilling the request.
+        temporarily_unavailable: The authorization server is currently unable to handle the request due to a temporary overloading or maintenance of the server.
+        credential_flow_not_configured: Resource Owner Password Credentials flow failed due to Doorkeeper.configure.resource_owner_from_credentials being unconfigured.
+        resource_owner_authenticator_not_configured: Resource Owner find failed due to Doorkeeper.configure.resource_owner_authenticator being unconfiged.
+        unsupported_response_type: The authorization server does not support this response type.
+        invalid_client: Client authentication failed due to unknown client, no client authentication included, or unsupported authentication method.
+        invalid_grant: The provided authorization grant is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client.
+        unsupported_grant_type: The authorization grant type is not supported by the authorization server.
+        invalid_resource_owner: The provided resource owner credentials are not valid, or resource owner cannot be found
         invalid_token:
           revoked: The access token was revoked
           expired: The access token expired
@@ -1348,8 +1358,9 @@ en:
       wait: Wait
       cancel: Cancel
     currency:
-      cny: CNY
+      eur: EUR
       btc: BTC
+      eth: ETH
     order:
       state:
         done: DONE
@@ -1671,12 +1682,10 @@ en:
     new:
       title: SIGN UP
       signin: Sign In
-      password: Please enter a password at least 6 characters and it's better to contain
-        uppercase and lowercase letters and numbers.
+      password: Please enter a password at least 6 characters and it's better to contain uppercase and lowercase letters and numbers.
     update:
       auth-error: The original password you entered is incorrect, please re-enter.
-      auth-same: The new password you entered is the same as the old password, please
-        re-enter.
+      auth-same: The new password you entered is the same as the old password, please re-enter.
       notice: Account password updated successfully.
   layouts:
     admin:
@@ -1726,9 +1735,7 @@ en:
     create:
       error: You account has been disabled, contact admin if you have any problem.
     failure:
-      account_locked: Too many failed login attempts. To ensure the safety of your
-        account, we have locked your account. To unlock, reset your password by clicking
-        on "Forgot Password".
+      account_locked: Too many failed login attempts. To ensure the safety of your account, we have locked your account. To unlock, reset your password by clicking on "Forgot Password".
       error: Wrong customer ID or password,please try again.
   shared:
     admin:
@@ -1743,11 +1750,8 @@ en:
         account_info: Account Info
         payment_address: Deposit Address
     alert:
-      modern: In order not to affect trading experience, please use a more popular
-        browser transaction, we recommend you <a target='_blank' href='https://www.google.com/#q=google+chrome'>Google
-        Chrome</a>。
-      pusher_unavailable: The network connection is temporarily unavailable... <a
-        href='#' class='alert-link'>Please refresh</a>.
+      modern: In order not to affect trading experience, please use a more popular browser transaction, we recommend you <a target='_blank' href='https://www.google.com/#q=google+chrome'>Google Chrome</a>。
+      pusher_unavailable: The network connection is temporarily unavailable... <a href='#' class='alert-link'>Please refresh</a>.
     header:
       balance: Balance
     header_account_balance:
@@ -1776,27 +1780,21 @@ en:
       send_code: Send Code
       send_code_alt: Resend in COUNT seconds
       hints:
-        app: Google Authenticator will re-generate a new password every thirty seconds,
-          please input timely.
+        app: Google Authenticator will re-generate a new password every thirty seconds, please input timely.
         sms: We'll send a text message to you phone with verify code.
   verify:
     google_auths:
       edit:
         submit: Disable
-        warning: 'Tip: If you have lost your Two-Factor Authentication by some reason
-          and can''t login your Peatio account, please contact our online customer
-          service.'
+        warning: 'Tip: If you have lost your Two-Factor Authentication by some reason and can''t login your Peatio account, please contact our online customer service.'
       show:
         step-1: Step 1
         step-2: Step 2
         step-3: Step 3
         or: OR
-        download-app: Install Google Authenticator app on your smart phone and open
-          it.
-        guide-link: "<a href='https://support.google.com/accounts/answer/1066447'
-          target='_blank'>Installation Instructions</a>。"
-        scan-qr-code: Scan the following QR code with Google Authenticator APP，or
-          add cipher text to the validator manually.
+        download-app: Install Google Authenticator app on your smart phone and open it.
+        guide-link: "<a href='https://support.google.com/accounts/answer/1066447' target='_blank'>Installation Instructions</a>。"
+        scan-qr-code: Scan the following QR code with Google Authenticator APP，or add cipher text to the validator manually.
         enter-passcode: Fill in the dynamic password  displayed by your phone to activate Two-Factor Authentication.
         submit: Enable
         ios: Iphone iOS
@@ -1815,10 +1813,8 @@ en:
     sms_auths:
       show:
         title: Verify Phone Number
-        description: Providing a phone number will make your account more secure. you
-          can quickly reset your password and your account operations will be notified.
-        warning: it will not be able to retrieve your account's password if not set
-          the phone number.
+        description: Providing a phone number will make your account more secure. you can quickly reset your password and your account operations will be notified.
+        warning: it will not be able to retrieve your account's password if not set the phone number.
         phone_number: Phone number
         send_code: Send Code
         send_code_alt: Resend in COUNT seconds
@@ -1842,6 +1838,13 @@ en:
       key: Blockchain
       title: Bitcoin Blockchain
       intro: Withdraw Bitcoin to your own Bitcoin wallet
+      latency: 30 minutes
+      transfer: Manual
+      go: Withdraw
+    ether:
+      key: Ether
+      title: Ether Blockchain
+      intro: Withdraw Litecoin to your own Ether wallet
       latency: 30 minutes
       transfer: Manual
       go: Withdraw
