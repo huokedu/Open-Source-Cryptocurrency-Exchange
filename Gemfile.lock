@@ -536,7 +536,7 @@ DEPENDENCIES
   mails_viewer
   meta_request
   mina
-  mina-slack!
+  #mina-slack!
   mocha (~> 1.0.0)
   momentjs-rails
   mysql2 (~> 0.3.21)
