@@ -228,7 +228,8 @@ en:
         activation:
           attributes:
             base:
-              too_soon: An activation email was sent to your email address less than 5 minutes ago.
+              too_soon: An activation email was sent to your email address less than
+                5 minutes ago.
         fund_source:
           attributes:
             address:
@@ -291,15 +292,10 @@ en:
   market:
     currency:
       btc: BTC
-      eur: EUR
+      cny: CNY
       doge: DOGE
       pts: PTS
       ltc: LTC
-      bcc: BCC
-      eth: ETH
-      zec: ZEC
-      bts: BTS
-      etc: ETC
   currency:
     satoshi:
       key: BTC
@@ -311,54 +307,21 @@ en:
       code: BTSX
       name: BitsharesX
       format: '0,0.0000'
-    euro:
-      key: EUR
-      code: EUR
-      name: European Euro
+    renminbi:
+      key: CNY
+      code: CNY
+      name: Chinese Yuan
       format: '0,0.00'
     dogecoin:
       key: DOG
       code: DOGE
       name: Dogecoin
       format: '0,0.0000'
-    ether:
-      key: ETH
-      code: ETH
-      name: Ethereum
-      format: '0,0.0000'     
     protoshare:
       key: PTS
       code: PTS
       name: Protoshare
       format: '0,0.0000'
-    etc:
-      key: ETC
-      code: ETC
-      name: ETC
-      format: '0,0.0000'
-    ltc:
-      key: LTC
-      code: LTC
-      name: LTC
-      format: '0,0.0000'
-    bcc:
-      key: BCC
-      code: BCC
-      name: BCC
-      format: '0,0.0000'
-    zec:
-      key: ZEC
-      code: ZEC
-      name: ZEC
-      format: '0,0.0000'
-    bts:
-      key: BTS
-      code: BTS
-      name: BTS
-      format: '0,0.0000'
-
-
-
   datagrid:
     empty: no data found
     filters:
@@ -501,13 +464,6 @@ en:
       key: Block Chain
       title: Bitcoin Deposits
       intro: Deposit bitcoin from your own wallet address to Peatio account
-      latency: 1 confirmation
-      transfer: Manual
-      go: Deposit
-    ether:
-      key: ethereum
-      title: Ethereum Deposits
-      intro: Deposit Ethereum from your own wallet address to Tradealtcoin account
       latency: 1 confirmation
       transfer: Manual
       go: Deposit
@@ -713,12 +669,12 @@ en:
       index:
         liability-proof: Proof of Liabilities
         btc-assets: BTC Assets
-        eur-assets: EUR Assets
+        cny-assets: CNY Assets
       liability_tabs:
         verify-btc: Verify My BTC Assets
-        verify-eur: Verify My EUR Assets
+        verify-cny: Verify My CNY Assets
         btc-assets-total: 'Total BTC assets of exchange: '
-        eur-assets-total: 'Total EUR assets of exchange: '
+        cny-assets-total: 'Total CNY assets of exchange: '
       liability_proof:
         title: Proof of Liabilities
         intro: As an exchange, our liabilities refer to the sum of money (in both
@@ -740,10 +696,10 @@ en:
         intro: All of exchange's BTC assets are listed here.
         total: Total BTC Assets
         address: Address
-      eur_assets:
-        title: EUR Assets
-        intro: All of exchange's EUR assets are listed here.
-        total: Total EUR Assets
+      cny_assets:
+        title: CNY Assets
+        intro: All of exchange's CNY assets are listed here.
+        total: Total CNY Assets
         description: " <p>For supervision, you can inquiry the balance of our deposit
           account:</p> <p>Bank: %{bank}</p> <p>Account： %{address}</p> <p>Inquiry
           Password： %{password}</p> <p>Inquiry Tel.： %{tel}</p>"
@@ -752,10 +708,10 @@ en:
     funds:
       show:
         account_history: Account History
-        eur_format: '0.00'
+        cny_format: '0.00'
         btc_format: '0.00000000'
         reason:
-          eur:
+          cny:
             strike_add: Plus
             strike_sub: Sub
             deposit: Deposit
@@ -808,7 +764,7 @@ en:
       market_list:
         all: All Markets
         all_html: "<i class='fa fa-check'></i><span>All Markets</span>"
-        eur_html: "<i class='fa fa-check'></i><span>EUR Markets</span>"
+        cny_html: "<i class='fa fa-check'></i><span>CNY Markets</span>"
         btc_html: "<i class='fa fa-check'></i><span>BTC Markets</span>"
         price: Price
         change: "24h %"
@@ -999,7 +955,7 @@ en:
         balance: Balance
         available: Available
         title: "%{icon} %{c} Account"
-        eur_format: '0.00'
+        cny_format: '0.00'
         btc_format: '0.00000000'
         total: Total
   guides:
@@ -1060,15 +1016,15 @@ en:
       panel: Login
       new:
         title: Login my account
-        intro: Login Cryex24.
+        intro: Login Peatio now for you to exchange.
       failure:
         title: Login my account
-        intro: Login Cryex24.
+        intro: Login Peatio now for you to exchange.
     identities:
       panel: Create Account
       new:
         title: Create My Account
-        intro: This will be your only ID on Cryex24 which is necessary for your exchange
+        intro: This will be your only ID on Peatio which is necessary for your exchange
           , deposit and withdrawal . please fill it out carefully.
       edit:
         panel: My Account
@@ -1084,7 +1040,7 @@ en:
         email: E-mail Address
         password: Password
       identity:
-        email: Example：user@example.com
+        email: Example：xiaobai@example.com
         password: Please set your login password
         password_confirmation: Confirm your password
         edit:
@@ -1392,7 +1348,7 @@ en:
       wait: Wait
       cancel: Cancel
     currency:
-      eur: EUR
+      cny: CNY
       btc: BTC
     order:
       state:
@@ -1886,13 +1842,6 @@ en:
       key: Blockchain
       title: Bitcoin Blockchain
       intro: Withdraw Bitcoin to your own Bitcoin wallet
-      latency: 30 minutes
-      transfer: Manual
-      go: Withdraw
-    ether:
-      key: Ether
-      title: Ether Blockchain
-      intro: Withdraw Litecoin to your own Ether wallet
       latency: 30 minutes
       transfer: Manual
       go: Withdraw
