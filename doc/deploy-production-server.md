@@ -48,11 +48,10 @@ Installing [rbenv](https://github.com/sstephenson/rbenv) using a Installer
     echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
     exec $SHELL
 
-Install JRuby through rbenv:
-
-    sudo apt-get install default-jre  
-    rbenv install jruby-9.1.13.0
-    rbenv global jruby-9.1.13.0
+Install Ruby through rbenv:
+    
+    rbenv install 2.2.1
+    rbenv global 2.2.1
 
 Install bundler
 
