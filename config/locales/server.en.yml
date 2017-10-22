@@ -720,14 +720,11 @@ en:
       index:
         liability-proof: Proof of Liabilities
         btc-assets: BTC Assets
-        eth-assets: ETH Assets
         eur-assets: EUR Assets
       liability_tabs:
         verify-btc: Verify My BTC Assets
-        verify-eth: Verify My ETH Assets
         verify-eur: Verify My EUR Assets
         btc-assets-total: 'Total BTC assets of exchange: '
-        eth-assets-total: 'Total ETH assets of exchange: '
         eur-assets-total: 'Total EUR assets of exchange: '
       liability_proof:
         title: Proof of Liabilities
