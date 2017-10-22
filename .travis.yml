@@ -13,7 +13,7 @@ install:
   - bundle install --without development --path vendor/bundle
 script:
   - bundle exec rake db:setup
-  - bundle exec rake precompile:assets
+  - bundle exec rake assets:precompile
   - bundle exec rake daemons:start
   - bundle exec rake daemons:status
 after_failure:
