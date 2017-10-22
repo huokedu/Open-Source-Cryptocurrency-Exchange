@@ -228,8 +228,7 @@ en:
         activation:
           attributes:
             base:
-              too_soon: An activation email was sent to your email address less than
-                5 minutes ago.
+              too_soon: An activation email was sent to your email address less than 5 minutes ago.
         fund_source:
           attributes:
             address:
