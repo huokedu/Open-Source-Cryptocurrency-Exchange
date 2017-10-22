@@ -3,8 +3,7 @@ An open-source crypto currency exchange
 [![Code Climate](https://codeclimate.com/github/peatio/peatio.png)](https://codeclimate.com/github/peatio/peatio)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/peatio/peatio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Known Vulnerabilities](https://snyk.io/test/github/snyk/goof/badge.svg)](https://snyk.io/test/github/snyk/goof)
-[![Build Status](https://travis-ci.org/peatio/peatio.png?branch=master)](https://travis-ci.org/scatterp/peatio)
-
+[![Build Status](https://travis-ci.org/scatterp/peatio.svg?branch=master)](https://travis-ci.org/scatterp/peatio)
 
 [![Total Downloads](https://img.shields.io/npm/dt/hacktimer.svg)](https://github.com/scatterp/peatio)
 [![Week Downloads](https://img.shields.io/npm/dw/hacktimer.svg)](https://github.com/scatterp/peatio)
