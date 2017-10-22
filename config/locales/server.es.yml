@@ -228,8 +228,7 @@ es:
         activation:
           attributes:
             base:
-              too_soon: Se ha enviado un correo electrónico de activación a tu dirección de correo electrónico
-                 Hace 5 minutos.
+              too_soon: Se ha enviado un correo electrónico de activación a tu dirección de correo electrónico Hace 5 minutos.
         fund_source:
           attributes:
             address:
