@@ -85,7 +85,6 @@ group :development, :test do
   gem 'mails_viewer'
   gem 'meta_request'
   gem 'mina'
-  #gem 'mina-slack', github: 'peatio/mina-slack' #commented due to travis ci failing build
   gem 'pry-rails'
   gem 'quiet_assets'
   gem 'rails_best_practices', require: false
