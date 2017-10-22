@@ -13,8 +13,9 @@ install:
   - bundle install --without development --path vendor/bundle
 script:
   - bundle exec rake db:schema:load
-  - bundle exec rake db:test:prepare
-  - bundle exec rake spec
+  - bundle exec rake precompile:assets
+  - bundle exec rake daemons:start
+  - bundle exec rake daemons:status
 after_failure:
   - "mysql -e 'show databases;'"
   - "cat ./config/database.yml"
