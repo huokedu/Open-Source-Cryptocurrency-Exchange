@@ -11,7 +11,7 @@ sudo add-apt-repository 'deb http://archive.ubuntu.com/ubuntu trusty universe'
 sudo apt-get update
 sudo apt-get install -y mysql-server-5.6 redis-server libmysqlclient-dev
 sudo apt-get install -y dirmngr gnupg
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 561F9B9C$
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 561F9B9CAC40B2F7
 sudo apt-get install -y apt-transport-https ca-certificates
 
 # Add our APT repository
@@ -69,12 +69,7 @@ pwd
 #rbenv global jruby-9.1.13.0
 #gem install bundler
 #bundle install
-#echo "ssl run daemons"
-#cd /home/deploy/
-#wget http://www.quickfixengine.org/FIX42.xml
-#mkdir config
-#wget https://gist.githubusercontent.com/scatterp/9f2b2c00f67e6ddbbc9ed27674745b80/raw/276237d1ad1f59b238bae05983569a697cf59d73/executor.rb
-#cd config
-#wget https://gist.githubusercontent.com/scatterp/3f1a6def24d16f91def3a5a17f13c077/raw/707e045e9759e0f5355f63d60633e1e436ac63ca/fix_agents.rb
-#cd ..
-#cd ..
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install python-certbot-nginx
+echo "you can now setup ssl and run daemons"
