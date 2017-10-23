@@ -140,7 +140,7 @@ namespace K {
 
           cout << "sending short quote to Peatio" << endl;
           std::stringstream Quote;
-          Quote <<"/home/deploy/.rbenv/versions/2.2.1/bin/ruby -s ~/peatio/pc/api.rb" << " " << FirstThree << LastThree << " " << qeQuoteAskSize << " " << "sell" << " " << qeQuoteAskPrice;
+          Quote <<"/home/deploy/.rbenv/versions/2.2.1/bin/ruby -s home/peatio/current/pc/api.rb" << " " << FirstThree << LastThree << " " << qeQuoteAskSize << " " << "sell" << " " << qeQuoteAskPrice;
           const string quote = Quote.str().c_str();
           cout << "Quote parameters: " << quote << endl;
           system(quote.c_str());
@@ -149,7 +149,7 @@ namespace K {
         else if (qeQuote.bid.price > 0){
             cout << "sending buy quote to Peatio" << endl;
               std::stringstream Quote;
-            Quote <<"/home/deploy/.rbenv/versions/2.2.1/bin/ruby -s ~/peatio/pc/api.rb" << " " << FirstThree << LastThree << " " << qeQuoteBidSize << " " << "buy" << " " << qeQuoteBidPrice;
+            Quote <<"/home/deploy/.rbenv/versions/2.2.1/bin/ruby -s home/peatio/current/pc/api.rb" << " " << FirstThree << LastThree << " " << qeQuoteBidSize << " " << "buy" << " " << qeQuoteBidPrice;
             const string quote = Quote.str().c_str();
             cout << "Quote parameters: " << quote << endl;
            // printf(quote.c_str());
