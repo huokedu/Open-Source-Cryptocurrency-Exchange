@@ -18,7 +18,7 @@ An open-source crypto currency exchange
 ### Todo (Coming soon in priority order)
 •Installer with minimal steps [![ALPHA]()(https://github.com/scatterp/peatio/blob/master/install1.sh)]
 
-•Merge in welcome page from coinxpro.com
+•Merge in welcome page from coinxpro.com [![ALPHA]()(https://github.com/scatterp/peatio/https://github.com/scatterp/peatio/tree/testcoinx)]
 
 •all code has refactored 
 
