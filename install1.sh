@@ -49,7 +49,8 @@ sudo apt-get update
 sudo apt-get install -y --allow-unauthenticated nginx-extras passenger
 bitcoind
 sudo cp passenger.conf /etc/nginx/passenger.conf
-sudo echo "include  /etc/nginx/passenger.conf;" >> /etc/nginx/nginx.conf
+#sudo echo "include  /etc/nginx/passenger.conf;" >> /etc/nginx/nginx.conf
+echo "include  /etc/nginx/passenger.conf;" |sudo tee -a /etc/nginx/nginx.conf
 echo "remaining steps 10"
 echo "export RAILS_ENV=production" >> ~/.bashrc
 source ~/.bashrc
@@ -86,5 +87,10 @@ pwd
 #bundle install
 sudo add-apt-repository ppa:certbot/certbot
 sudo apt-get update
-sudo apt-get install python-certbot-nginx
+sudo apt-get install -y python-certbot-nginx
+sudo service nginx stop
+sudo service nginx start
+bundle exec rake daemons:start
+sudo service nginx status
+bundle exec rake daemons:status
 echo "you can now setup ssl and run daemons"
