@@ -97,6 +97,6 @@ sudo apt-get install -y python-certbot-nginx
 sudo service nginx stop
 sudo service nginx start
 bundle exec rake daemons:start
-sudo service nginx status
+#sudo service nginx status
 bundle exec rake daemons:status
 echo "you can now setup ssl and run daemons"
