@@ -51,7 +51,11 @@ sudo apt-get install -y --allow-unauthenticated nginx-extras passenger
 bitcoind
 sudo cp passenger.conf /etc/nginx/passenger.conf
 #sudo echo "include  /etc/nginx/passenger.conf;" >> /etc/nginx/nginx.conf
-echo "include  /etc/nginx/passenger.conf;" |sudo tee -a /etc/nginx/nginx.conf
+#echo "include  /etc/nginx/passenger.conf;" |sudo tee -a /etc/nginx/nginx.conf
+cp /etc/nginx/nginx.conf .
+sed -i '64i\passenger_root /usr/lib/ruby/vendor_ruby/phusion_passenger/locations.ini;' nginx.conf
+sed -i '65i\passenger_ruby /home/deploy/.rbenv/shims/ruby;' nginx.conf
+sudo cp nginx.conf /etc/nginx/nginx.conf
 echo "remaining steps 10"
 echo "export RAILS_ENV=production" >> ~/.bashrc
 source ~/.bashrc
