@@ -21,6 +21,7 @@ rbenv global 2.2.1
 echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 gem install bundler
 rbenv rehash
+read -p "Press [Enter] key to continue..."
 mkdir -p ~/.bitcoin
 cp bitcoin.conf ~/.bitcoin/bitcoin.conf
 dialog --msgbox "enter bitcoind user password settings and save" 10 20
@@ -60,8 +61,7 @@ git clone https://github.com/scatterp/peatio.git ~/peatio/current
 #git checkout testing01
 cd ~/peatio/current/
 pwd
-read -p "Press [Enter] key to continue..."
-sudo apt-get install -y ruby-bundler
+#sudo apt-get install -y ruby-bundler
 bundle install --without development test --path vendor/bundle
 bin/init_config
 dialog --msgbox "enter pusher <US1> settings and save" 10 20
@@ -85,6 +85,8 @@ pwd
 #rbenv global jruby-9.1.13.0
 #gem install bundler
 #bundle install
+sudo rm /etc/nginx/sites-enabled/default
+sudo ln -s /home/deploy/peatio/current/config/nginx.conf /etc/nginx/conf.d/peatio.conf
 sudo add-apt-repository ppa:certbot/certbot
 sudo apt-get update
 sudo apt-get install -y python-certbot-nginx
