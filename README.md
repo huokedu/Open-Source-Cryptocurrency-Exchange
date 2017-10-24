@@ -15,8 +15,15 @@ An open-source crypto currency exchange
    (more to come) and a market making system which will provide a trading partner for your users.
    please feel free to post issues and they will be handled rapidly.
 
+### Recently done / News
+•Installer with minimal steps [![RELEASE]()(https://github.com/scatterp/peatio/blob/master/install1.sh)]
+wget https://raw.githubusercontent.com/scatterp/peatio/master/install1.sh
+source install1.sh 
+
+NOTE: it is critical you launch this with "SOURCE" not "SH" not "BASH" etc
+NOTE2: less than 4GB of ram you should disable the line that reads bitcoind or you wont have enough memory to launch the page
+
 ### Todo (Coming soon in priority order)
-•Installer with minimal steps [![ALPHA]()(https://github.com/scatterp/peatio/blob/master/install1.sh)]
 
 •Merge in welcome page from coinxpro.com [![ALPHA]()(https://github.com/scatterp/peatio/https://github.com/scatterp/peatio/tree/testcoinx)]
 
