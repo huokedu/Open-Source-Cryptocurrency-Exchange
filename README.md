@@ -1,3 +1,9 @@
+SPECS:
+=====================================
+Runs but below minimum specs: 80gb, 2.20ghz, 2gb ram
+Recomended specs: 300gb SSD, 4x 2.20 ghz and 12 gb ram
+Ultra specs: 300gb SSD, 4x 2.20 ghz and 96 gb ram (run the os in ram its self)
+
 An open-source crypto currency exchange
 =====================================
 [![Code Climate](https://codeclimate.com/github/peatio/peatio.png)](https://codeclimate.com/github/peatio/peatio)
@@ -26,6 +32,9 @@ NOTE2: less than 4GB of ram you should disable the line that reads bitcoind or y
 •Merge in welcome page from coinxpro.com [![RELEASE]()(https://github.com/scatterp/peatio/https://github.com/scatterp/peatio/tree/testcoinx)]
 
 ### Todo (Coming soon in priority order)
+•payment processing
+
+•Investigate PoxA or socket.io as a pusher replacement
 
 •all code has refactored 
 
