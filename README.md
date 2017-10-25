@@ -34,6 +34,12 @@ NOTE2: less than 4GB of ram you should disable the line that reads bitcoind or y
 •Merge in welcome page from coinxpro.com [![RELEASE]()(https://github.com/scatterp/peatio/https://github.com/scatterp/peatio/tree/testcoinx)]
 
 ### Todo (Coming soon in priority order)
+
+revert config/application.rb
+revert config/initializers/pusher.rb
+revert doc/deploy-production-server.md
+
+
 •payment processing
 
 •Investigate PoxA or socket.io as a pusher replacement
