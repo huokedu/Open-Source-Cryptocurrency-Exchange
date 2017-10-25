@@ -426,6 +426,7 @@ en:
     psbc: Postal Savings Bank of China
   market:
     currency:
+      eur: EUR
       btc: BTC
       cny: CNY
       doge: DOGE
@@ -437,6 +438,11 @@ en:
       blk: BLK
       rpt: RPT
       trt: TRT
+      bcc: BCC
+      eth: ETH
+      zec: ZEC
+      bts: BTS
+      etc: ETC
   currency:
     satoshi:
       key: BTC
@@ -448,6 +454,11 @@ en:
       code: BTSX
       name: BitsharesX
       format: '0,0.0000'
+    etc:
+      key: ETC
+      code: ETC
+      name: ETC
+      format: '0,0.0000'
     renminbi:
       key: CNY
       code: CNY
@@ -458,6 +469,26 @@ en:
       code: DOGE
       name: Dogecoin
       format: '0,0.0000'
+    bcc:
+      key: BCC
+      code: BCC
+      name: BCC
+      format: '0,0.0000'
+    zec:
+      key: ZEC
+      code: ZEC
+      name: ZEC
+      format: '0,0.0000'
+    bts:
+      key: BTS
+      code: BTS
+      name: BTS
+      format: '0,0.0000'
+    ether:
+      key: ETH
+      code: ETH
+      name: Ethereum
+      format: '0,0.0000' 
     protoshare:
       key: PTS
       code: PTS
@@ -640,6 +671,13 @@ en:
       key: Block Chain
       title: Bitcoin Deposits
       intro: Deposit bitcoin from your own wallet address to Cryex24 account
+      latency: 1 confirmation
+      transfer: Manual
+      go: Deposit
+    ether:
+      key: ethereum
+      title: Ethereum Deposits
+      intro: Deposit Ethereum from your own wallet address to Tradealtcoin account
       latency: 1 confirmation
       transfer: Manual
       go: Deposit
@@ -1049,6 +1087,7 @@ en:
     funds:
       show:
         account_history: Account History
+        eur_format: '0.00'
         cny_format: '0.00'
         btc_format: '0.00000000'
         ltc_format: '0.00000000'
@@ -1058,6 +1097,12 @@ en:
         trt_format: '0.00000000'
         reason:
           cny:
+            strike_add: Plus
+            strike_sub: Sub
+            deposit: Deposit
+            withdraw: Withdraw
+            fix: Fix
+          eur:
             strike_add: Plus
             strike_sub: Sub
             deposit: Deposit
@@ -1341,6 +1386,7 @@ en:
         available: Available
         title: "%{icon} %{c} Account"
         cny_format: '0.00'
+        eur_format: '0.00'
         btc_format: '0.00000000'
         ltc_format: '0.00000000'
         ppc_format: '0.00000000'
