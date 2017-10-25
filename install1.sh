@@ -48,7 +48,7 @@ sudo apt-get update
 
 # Install Passenger + Nginx
 sudo apt-get install -y --allow-unauthenticated nginx-extras passenger
-bitcoind
+#bitcoind
 sudo cp passenger.conf /etc/nginx/passenger.conf
 #sudo echo "include  /etc/nginx/passenger.conf;" >> /etc/nginx/nginx.conf
 #echo "include  /etc/nginx/passenger.conf;" |sudo tee -a /etc/nginx/nginx.conf
@@ -99,4 +99,4 @@ sudo service nginx start
 bundle exec rake daemons:start
 #sudo service nginx status
 bundle exec rake daemons:status
-echo "you can now setup ssl and run daemons"
+echo "you can now setup ssl optionally start bitcoind if you have over 2gb or visit the website (its up and running)"
