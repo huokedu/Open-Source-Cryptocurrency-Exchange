@@ -694,7 +694,7 @@ cs:
         title: Důkaz aktiv
         intro: Ve směnárně, naše závazky jsou celkovým množství peněz (v kryptoměnách a Fiat měnách), které jsou našich uživatelů kterým děkujeme za důvěru. Na této stránce vám předkládáme naše závazky. Poskytujeme také vám způsob, jak ověřit, že zůstatek účtu je skutečně součástí našich závazků.
         how-to-verify: Jak ověřit je-li směnárna solventní?
-        how-to-verify-uri: http://coinxpro.com/documents/liability_proof
+        how-to-verify-uri: http://Cryex24.com/documents/liability_proof
       liability_data:
         liability-proof-generating: Důkaz závazků se generuje, prosím vraťte se po 30 minutách.
         root-json: Root node
@@ -1248,7 +1248,7 @@ cs:
       trade: Odeslat a stornovat objednávky
     authorizations:
       new:
-        title: CoinxPro Applikace Autorizace
+        title: Cryex24 Applikace Autorizace
         authorize_html: Autorizovat <strong class='text-info'>%{name}</strong> pro Váš účet?
         scopes: 'Tato aplikace je zde:'
         authorize: Autorizovat
@@ -1369,7 +1369,7 @@ cs:
       truncate: "..."
   mailer:
     dear_user: Vážený uživateli,
-    signature: Děkujeme,<br/>CoinxPro Team
+    signature: Děkujeme,<br/>Cryex24 Team
     please_contact: Pokud to nejste vy, prosím <a href='mailto:%{contact_mail}'>kontaktujte nás</a> NEPRODLENĚ.
     footer: Toto je automaticky generovaný email, prosím neodpovídejte, pokud máte nějaký dotaz, prosím <a href="mailto:%{contact_mail}">kontaktujte nás</a>.
   comment_mailer:
@@ -1423,26 +1423,26 @@ cs:
       thanks_for_submit_ticket: Děkujeme Vám za odeslání tiketu, budeme Vás kontaktovat co nejdříve.
   token_mailer:
     activation:
-      subject: "[CoinxPro] Aktivace účtu"
+      subject: "[Cryex24] Aktivace účtu"
       click_to_verify: 'Děkujeme za registraci, prosím zobrazte link níže a ověřte tak Vaši emailovou adresu:'
       unable_to_click: Zkopírujte link a otevřete ve vašem prohlížeči, pokud máte deaktivovánu možnost kliknutí na link a zobrazení.
       link_expire: Link vyprší za 30 minut.
     reset_password:
-      subject: "[CoinxPro] Prosím resetujte Své heslo"
+      subject: "[Cryex24] Prosím resetujte Své heslo"
       hi: Ahoj,
       follow_the_link: 'Prosím použijte tento link pro resetování hesla během následujících 30 minut:'
   withdraw_mailer:
     withdraw_submitted:
-      subject: "[CoinxPro] Stav vašeho výběru byl aktualizován"
+      subject: "[Cryex24] Stav vašeho výběru byl aktualizován"
       content: Žádost o %{currency} výběr byla úspěšně odeslána, Bude zpracována co nejdříve. Prosím, buďte trpěliví. Napište nám, pokud máte nějaké dotazy.
     withdraw_processing:
-      subject: "[CoinxPro] Stav vašeho výběru byl aktualizován"
+      subject: "[Cryex24] Stav vašeho výběru byl aktualizován"
       content: Žádost o Váš %{currency} výběr je zpracovávána. Prosím, buďte trpěliví. Napište nám, pokud máte nějaké dotazy.
     withdraw_done:
-      subject: "[CoinxPro] Stav vašeho výběru byl aktualizován"
+      subject: "[Cryex24] Stav vašeho výběru byl aktualizován"
       content: Žádost o Váš %{currency} výběr je dokončena. Prosím, zkontrolujte doručení. Napište nám, pokud máte nějaké dotazy.
     withdraw_state:
-      subject: "[CoinxPro] Stav vašeho výběru byl aktualizován"
+      subject: "[Cryex24] Stav vašeho výběru byl aktualizován"
       your_state: 'Stav Vašeho výběru:'
   view_on_github: Zobrazit na Github
   slogan: An open-source crypto-currency exchange for world.
@@ -1459,9 +1459,9 @@ cs:
   gon:
     ask: Poptávka
     bid: Nabídka
-    brand: CoinxPro Exchange
+    brand: Cryex24 Exchange
     notification:
-      title: CoinxPro Exchange
+      title: Cryex24 Exchange
       enabled: Notifikace aktivní
       new_trade: "%{kind} objednávka#%{id} zpracována %{price} %{quote_unit} objem %{volume} %{base_unit}。"
   back: Zpět
@@ -1666,9 +1666,9 @@ cs:
     application:
       close: Zavřít
     meta:
-      page_title: CoinxPro - The Opensource Cryptocurrency Exchange
-      page_description: CoinxPro - The Opensource Cryptocurrency Exchange
-      page_keywords: CoinxPro,Opensource,Exchange,Cryptocurrency
+      page_title: Cryex24 - The Opensource Cryptocurrency Exchange
+      page_description: Cryex24 - The Opensource Cryptocurrency Exchange
+      page_keywords: Cryex24,Opensource,Exchange,Cryptocurrency
   members:
     edit:
       name: Vyplňte prosím aplikaci.

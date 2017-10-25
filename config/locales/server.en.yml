@@ -639,42 +639,42 @@ en:
     satoshi:
       key: Block Chain
       title: Bitcoin Deposits
-      intro: Deposit bitcoin from your own wallet address to CoinxPro account
+      intro: Deposit bitcoin from your own wallet address to Cryex24 account
       latency: 1 confirmation
       transfer: Manual
       go: Deposit
     litecoin:
       key: Litecoin Chain
       title: Litecoin Deposits
-      intro: Deposit litecoin from your own wallet address to CoinxPro account
+      intro: Deposit litecoin from your own wallet address to Cryex24 account
       latency: 1 confirmation
       transfer: Manual
       go: Deposit
     peercoin:
       key: Peercoin Chain
       title: Peercoin Deposits
-      intro: Deposit peercoin from your own wallet address to CoinxPro account
+      intro: Deposit peercoin from your own wallet address to Cryex24 account
       latency: 1 confirmation
       transfer: Manual
       go: Deposit
     blackcoin:
       key: Blackcoin Chain
       title: Blackcoin Deposits
-      intro: Deposit blackcoin from your own wallet address to CoinxPro account
+      intro: Deposit blackcoin from your own wallet address to Cryex24 account
       latency: 1 confirmation
       transfer: Manual
       go: Deposit
     realpointcoin:
       key: RealPointCoin Chain
       title: RealPointCoin Deposits
-      intro: Deposit realpointcoin from your own wallet address to CoinxPro account
+      intro: Deposit realpointcoin from your own wallet address to Cryex24 account
       latency: 1 confirmation
       transfer: Manual
       go: Deposit
     tritiumcoin:
       key: Tritiumcoin Chain
       title: Tritium Deposits
-      intro: Deposit tritium from your own wallet address to CoinxPro account
+      intro: Deposit tritium from your own wallet address to Cryex24 account
       latency: 1 confirmation
       transfer: Manual
       go: Deposit
@@ -922,7 +922,7 @@ en:
       view_open_tickets: View open tickets
     account_versions:
       index:
-        description: Every transaction and every penny of income in CoinxPro are well
+        description: Every transaction and every penny of income in Cryex24 are well
           documented and exhaustive.
     api_tokens:
       user_tokens:
@@ -998,7 +998,7 @@ en:
           this page, we present you our liabilities. We also provide you a way to
           verify that your account balance is indeed part of our liabilities.
         how-to-verify: How to verify an exchange is solvent?
-        how-to-verify-uri: http://coinxpro.com/documents/liability_proof
+        how-to-verify-uri: http://Cryex24.com/documents/liability_proof
       liability_data:
         liability-proof-generating: Proof of Liability generation in process, please
           come back after 30 minutes.
@@ -1406,15 +1406,15 @@ en:
       panel: Login
       new:
         title: Login my account
-        intro: Login CoinxPro now for you to exchange.
+        intro: Login Cryex24 now for you to exchange.
       failure:
         title: Login my account
-        intro: Login CoinxPro now for you to exchange.
+        intro: Login Cryex24 now for you to exchange.
     identities:
       panel: Create Account
       new:
         title: Create My Account
-        intro: This will be your only ID on CoinxPro which is necessary for your exchange
+        intro: This will be your only ID on Cryex24 which is necessary for your exchange
           , deposit and withdrawal . please fill it out carefully.
       edit:
         panel: My Account
@@ -1843,7 +1843,7 @@ en:
       trade: Submit and cancel orders
     authorizations:
       new:
-        title: CoinxPro Application Authorization
+        title: Cryex24 Application Authorization
         authorize_html: Authorize <strong class='text-info'>%{name}</strong> to use
           your account?
         scopes: 'This application will be able to:'
@@ -2030,41 +2030,41 @@ en:
 
   mailer:
     dear_user: Dear user,
-    signature: Thanks,<br/>The CoinxPro Team
+    signature: Thanks,<br/>The Cryex24 Team
     please_contact: If it's not you, please <a href='mailto:%{contact_mail}'>contact us</a> ASAP.
     footer: This is an automatically generated email, please do not reply, if you have any question, please <a href="mailto:%{contact_mail}">contact us</a>.
   comment_mailer:
     admin_notification:
-      subject: "[CoinxPro] User reply a ticket"
+      subject: "[Cryex24] User reply a ticket"
       notification_content: User %{email} reply a ticket, please follow the link below to see the detail
     user_notification:
-      subject: "[CoinxPro] Your ticket got a new reply"
+      subject: "[Cryex24] Your ticket got a new reply"
       notification_content: 'Your ticket got a new reply, please follow the link below to see the detail:'
   deposit_mailer:
     accepted:
-      subject: "[CoinxPro] Your deposit has been credited into your account"
+      subject: "[Cryex24] Your deposit has been credited into your account"
       content: Your %{currency} deposit has been credited into your account.
   member_mailer:
     notify_signin:
-      subject: "[CoinxPro] You have just signed in"
+      subject: "[Cryex24] You have just signed in"
       just_signed_in: You have just signed in.
     google_auth_activated:
-      subject: "[CoinxPro] Google authenticator activated"
+      subject: "[Cryex24] Google authenticator activated"
       google_auth_activated: You have activated google authenticator successfully
     google_auth_deactivated:
-      subject: "[CoinxPro] Google authenticator deactivated"
+      subject: "[Cryex24] Google authenticator deactivated"
       google_auth_deactivated: You have deactivated google authenticator successfully
     sms_auth_activated:
-      subject: "[CoinxPro] SMS authenticator activated"
+      subject: "[Cryex24] SMS authenticator activated"
       sms_auth_activated: You have activated SMS authenticator successfully
     sms_auth_deactivated:
-      subject: "[CoinxPro] SMS authenticator deactivated"
+      subject: "[Cryex24] SMS authenticator deactivated"
       sms_auth_deactivated: You have deactivated SMS authenticator successfully
     reset_password_done:
-      subject: "[CoinxPro] Your password changed"
+      subject: "[Cryex24] Your password changed"
       successful: Your password has been changed successfully.
     phone_number_verified:
-      subject: "[CoinxPro] Your phone number verified"
+      subject: "[Cryex24] Your phone number verified"
       verified: 'Your phone number verified: %{phone_number}'
   system_mailer:
     daily_stats:
@@ -2077,33 +2077,33 @@ en:
       trades_change_total: Trades Changes Total
   ticket_mailer:
     admin_notification:
-      subject: "[CoinxPro] User created a new ticket"
+      subject: "[Cryex24] User created a new ticket"
       admin_notification_content: User %{email} created a new ticket, please follow the link below to see the detail
     author_notification:
-      subject: "[CoinxPro] Thank you for submit ticket"
+      subject: "[Cryex24] Thank you for submit ticket"
       thanks_for_submit_ticket: Thank you for submit ticket to us, we will get back to you as soon as possible.
   token_mailer:
     activation:
-      subject: "[CoinxPro] Account Activation"
-      click_to_verify: 'Thank you for signing up on CoinxPro, please follow this link to verify your Email:'
+      subject: "[Cryex24] Account Activation"
+      click_to_verify: 'Thank you for signing up on Cryex24, please follow this link to verify your Email:'
       unable_to_click: Copy and open the link in your browser if you are unable to click and visit it.
       link_expire: The link expires in 30 minutes.
     reset_password:
-      subject: "[CoinxPro] Please Reset Your Password"
+      subject: "[Cryex24] Please Reset Your Password"
       hi: Hi,
       follow_the_link: 'Please follow this link to reset your password within 30 minutes:'
   withdraw_mailer:
     submitted:
-      subject: "[CoinxPro] Your withdraw state update"
+      subject: "[Cryex24] Your withdraw state update"
       content: The request of your %{currency} withdrawal has been successfully submitted, We will process it as soon as possible. Please be patient with us. Contact us if you have any questions.
     processing:
-      subject: "[CoinxPro] Your withdraw state update"
+      subject: "[Cryex24] Your withdraw state update"
       content: The request of your %{currency} withdrawal is in process. Please be patient with us. Contact us if you have any questions.
     done:
-      subject: "[CoinxPro] Your withdraw state update"
+      subject: "[Cryex24] Your withdraw state update"
       content: The request of your %{currency} withdrawal is complete. Please check it out. Contact us if you have any questions.
     withdraw_state:
-      subject: "[CoinxPro] Your withdraw state update"
+      subject: "[Cryex24] Your withdraw state update"
       your_state: 'Your withdrawal state: '
 
   'true': true
@@ -2123,9 +2123,9 @@ en:
   gon:
     ask: Ask
     bid: Bid
-    brand: CoinxPro Exchange
+    brand: Cryex24 Exchange
     notification:
-      title: CoinxPro Exchange
+      title: Cryex24 Exchange
       enabled: Notification enabled.
       new_trade: "%{kind} order#%{id} executed at %{price} %{quote_unit} for %{volume} %{base_unit}。"
   back: Back
@@ -2332,8 +2332,8 @@ en:
     application:
       close: Close
     meta:
-      page_title: coinxpro.com - The Cryptocurrency Exchange
-      page_description: coinxpro.com - The Cryptocurrency Exchange
+      page_title: Cryex24.com - The Cryptocurrency Exchange
+      page_description: Cryex24.com - The Cryptocurrency Exchange
       page_keywords: Exchange,Cryptocurrency
   members:
     edit:
@@ -2419,7 +2419,7 @@ en:
       edit:
         submit: Disable
         warning: 'Tip: If you have lost your Two-Factor Authentication by some reason
-          and can''t login your CoinxPro account, please contact our online customer
+          and can''t login your Cryex24 account, please contact our online customer
           service.'
       show:
         step-1: Step 1
@@ -2604,7 +2604,7 @@ en:
   mainpage:
     message1: YOUR PROFESSIONAL CRYPTO CURRENCY EXCHANGER
     message2: The Next Generation Multi Crypto Currency 24/7 Live Exchange
-    message3: Trade multiple digital currencies easy, safe, and smart, CoinXpro brings you a whole new technical view on 
+    message3: Trade multiple digital currencies easy, safe, and smart, Cryex24 brings you a whole new technical view on 
       trading through candle sticks plus line charting now analysis and predicate your future trades based on past and 
       present trades using the simple yet advanced charting tools MA, EMA and MACD.
     message3с: Get Started
