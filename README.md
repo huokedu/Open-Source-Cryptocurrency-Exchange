@@ -38,6 +38,8 @@ NOTE2: less than 4GB of ram you should disable the line that reads bitcoind or y
 
 •Investigate PoxA or socket.io as a pusher replacement
 
+•fix security issues
+
 •all code has refactored 
 
 •JRuby compatability and executes faster than previous versions at every step 
