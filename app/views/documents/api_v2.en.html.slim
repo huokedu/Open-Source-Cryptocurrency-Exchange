@@ -9,7 +9,7 @@
     h3 Public/Private API
 
   .panel-body
-    p COINXPRO API v2 includes both public API and private API.
+    p Cryex24 API v2 includes both public API and private API.
 
   table.table
     thead
@@ -22,7 +22,7 @@
         td Authentication required
       tr
         td Unlimited
-        td 6000 requests/keypair/5minutes, you can contact COINXPRO if you need more.
+        td 6000 requests/keypair/5minutes, you can contact Cryex24 if you need more.
       tr
         td Ready to use
         td You need to request for access/secret key at first
@@ -74,13 +74,13 @@
     h3 Response Format
 
   .panel-body
-    p Corresponding HTTP status code will be used in API response. COINXPRO will also return a JSON structure including error details on failed request, for example:
+    p Corresponding HTTP status code will be used in API response. Cryex24 will also return a JSON structure including error details on failed request, for example:
     pre: code
       | {"error":{"code":1001,"message":"market does not have a valid value"}}
-    p All errors follow the message format above, only differentiates in code and message. Code is a COINXPRO defined error code, indicates the error's category, message is human-readable details.
+    p All errors follow the message format above, only differentiates in code and message. Code is a Cryex24 defined error code, indicates the error's category, message is human-readable details.
 
   .panel-body
-    p COINXPRO returns HTTP 200 response on successful request, with requested data in JSON format.
+    p Cryex24 returns HTTP 200 response on successful request, with requested data in JSON format.
     table.table.result
       thead
         tr
