@@ -4,6 +4,7 @@ namespace :order do
     market = Market.find 'etheur'
     market = Market.find 'btceur'
 
+
     low = 2150
     high = 2250
     mid = 2200
