@@ -24,6 +24,8 @@ An open-source crypto currency exchange
    please feel free to post issues and they will be handled rapidly.
 
 ### Recently done / News
+•Multi Server Support https://github.com/scatterp/peatio/blob/master/MultiServerReadme.md
+
 •Installer with minimal steps [![RELEASE]()(https://github.com/scatterp/peatio/blob/master/install1.sh)]
 wget https://raw.githubusercontent.com/scatterp/peatio/master/install1.sh
 source install1.sh 
