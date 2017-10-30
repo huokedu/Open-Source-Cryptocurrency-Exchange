@@ -99,4 +99,5 @@ sudo service nginx start
 bundle exec rake daemons:start
 #sudo service nginx status
 bundle exec rake daemons:status
+mv pc ..
 echo "you can now setup ssl optionally start bitcoind if you have over 2gb or visit the website (its up and running)"
