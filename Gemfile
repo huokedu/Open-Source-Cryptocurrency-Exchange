@@ -45,7 +45,7 @@ gem 'simple_form', '~> 3.1.0'
 gem 'slim-rails', '>= 2.1.4'
 gem 'sass-rails', '>= 4.0.3'
 gem 'coffee-rails', '>= 4.0.1'
-gem 'uglifier'
+gem 'uglifier', '>= 2.7.2'
 gem "jquery-rails", ">= 3.1.0"
 gem "angularjs-rails"
 gem 'bootstrap-sass', '~> 3.2.0.2'
