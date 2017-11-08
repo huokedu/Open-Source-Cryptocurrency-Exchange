@@ -41,12 +41,13 @@ revert config/application.rb
 revert config/initializers/pusher.rb
 revert doc/deploy-production-server.md
 
+•finish M code
 
 •payment processing
 
 •Investigate PoxA or socket.io as a pusher replacement
 
-•fix security issues
+•fix security issues 5 remaining
 
 •all code has refactored 
 
