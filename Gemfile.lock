@@ -26,7 +26,7 @@ GEM
     actionpack (4.2.10)
       actionview (= 4.2.10)
       activesupport (= 4.2.10)
-      rack (~> 1.6)
+      rack (~> 1.5.2)
       rack-test (~> 0.6.2)
       rails-dom-testing (~> 1.0, >= 1.0.5)
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
@@ -180,7 +180,7 @@ GEM
     globalize (4.0.0)
       activemodel (>= 4.0.0, < 5)
       activerecord (>= 4.0.0, < 5)
-    gon (5.2.3)
+    gon (5.2.0)
       actionpack (>= 2.3.0)
       json
       multi_json
@@ -315,7 +315,7 @@ GEM
       signature (~> 0.1.6)
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
-    rack (1.6.8)
+    rack (1.5.2)
     rack-accept (0.4.5)
       rack (>= 0.4)
     rack-attack (4.3.1)
@@ -513,7 +513,7 @@ DEPENDENCIES
   figaro (>= 0.7.0)
   font-awesome-sass
   globalize (~> 4.0.0)
-  gon (~> 5.2.3)
+  gon (~> 5.2.0)
   grape (~> 0.7.0)
   grape-entity (~> 0.4.2)
   grape-swagger (~> 0.7.2)
