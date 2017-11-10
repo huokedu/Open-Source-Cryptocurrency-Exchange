@@ -4,7 +4,7 @@ GIT
   specs:
     mina-slack (0.1.0)
       mina (~> 0.3.0)
-      rest-client (~> 1.6.8)
+      rest-client (~> 1.7.3)
 
 GIT
   remote: git://github.com/peatio/unread.git
