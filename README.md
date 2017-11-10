@@ -24,6 +24,13 @@ An open-source crypto currency exchange
    please feel free to post issues and they will be handled rapidly.
 
 ### Recently done / News
+
+•fix security issues
+
+revert config/application.rb
+revert config/initializers/pusher.rb
+revert doc/deploy-production-server.md
+
 •Multi Server Support https://github.com/scatterp/peatio/blob/master/MultiServerReadme.md
 
 •Installer with minimal steps [![RELEASE]()(https://github.com/scatterp/peatio/blob/master/install1.sh)]
@@ -37,16 +44,9 @@ NOTE2: less than 4GB of ram you should disable the line that reads bitcoind or y
 
 ### Todo (Coming soon in priority order)
 
-revert config/application.rb
-revert config/initializers/pusher.rb
-revert doc/deploy-production-server.md
-
-
 •payment processing
 
 •Investigate PoxA or socket.io as a pusher replacement
-
-•fix security issues
 
 •all code has refactored 
 
