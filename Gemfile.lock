@@ -2,9 +2,9 @@ GIT
   remote: git://github.com/peatio/mina-slack.git
   revision: 5b7571a34f1979784720c0bfef555591e89ca3a7
   specs:
-    mina-slack (0.0.3)
+    mina-slack (0.1.0)
       mina (~> 0.3.0)
-      rest-client (~> 1.6.7)
+      rest-client (~> 1.6.8)
 
 GIT
   remote: git://github.com/peatio/unread.git
