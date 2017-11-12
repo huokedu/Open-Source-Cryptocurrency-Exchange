@@ -19,12 +19,17 @@ class IdDocument < ActiveRecord::Base
 
   alias_attribute :full_name, :name
 
-  aasm do
+  #aasm do
     #state :unverified, initial: true
-    state :unverified
-    state :verifying
-    state :verified, initial: true
+    #state :unverified
+    #state :verifying
+    #state :verified, initial: true
 
+  aasm do
+     state :unverified, initial: true
+     state :verifying
+     state :verified
+    
     event :submit do
       transitions from: :unverified, to: :verifying
     end
