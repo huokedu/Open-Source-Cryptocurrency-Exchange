@@ -10,7 +10,6 @@ An open-source crypto currency exchange
 =====================================
 [![Code Climate](https://codeclimate.com/github/peatio/peatio.png)](https://codeclimate.com/github/peatio/peatio)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/peatio/peatio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Known Vulnerabilities](https://snyk.io/test/github/snyk/goof/badge.svg)](https://snyk.io/test/github/snyk/goof)
 [![Build Status](https://travis-ci.org/scatterp/peatio.svg?branch=master)](https://travis-ci.org/scatterp/peatio)
 
 [![Total Downloads](https://img.shields.io/npm/dt/hacktimer.svg)](https://github.com/scatterp/peatio)
@@ -25,11 +24,13 @@ An open-source crypto currency exchange
 
 ### Recently done / News
 
+•Enhanced spanish support
+
 •fix security issues
 
-revert config/application.rb
-revert config/initializers/pusher.rb
-revert doc/deploy-production-server.md
+•revert config/application.rb
+•revert config/initializers/pusher.rb
+•revert doc/deploy-production-server.md
 
 •Multi Server Support https://github.com/scatterp/peatio/blob/master/MultiServerReadme.md
 
