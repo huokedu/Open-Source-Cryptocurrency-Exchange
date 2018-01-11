@@ -22,7 +22,7 @@ en:
       withdraws/bank: Withdraw Bank
       withdraws/satoshi: Withdraw Bitcoin
 #COINS_01
-	attributes:
+    attributes:
       api_token:
         access_key: Access Key
         trusted_ip_list: IP Whitelist
