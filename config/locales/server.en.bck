@@ -1346,7 +1346,6 @@ en:
       previous: "&lsaquo; Prev"
       next: Next &rsaquo;
       truncate: "..."
-	  
   mailer:
     dear_user: Dear user,
     signature: Thanks,<br/>The Cryex24 Team
