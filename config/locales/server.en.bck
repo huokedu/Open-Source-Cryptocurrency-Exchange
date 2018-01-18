@@ -305,9 +305,7 @@ en:
       code: BTC
       name: Bitcoin
       format: '0,0.0000'
-
-
-
+#COINS_03_01
   datagrid:
     empty: no data found
     filters:
