@@ -31,7 +31,7 @@ An open-source crypto currency exchange
 •revert config/initializers/pusher.rb
 •revert doc/deploy-production-server.md
 
-•Multi Server Support https://github.com/scatterp/peatio/blob/master/MultiServerReadme.md
+•Multi Server Support https://github.com/Gensia/Open-Source-Cryptocurrency-Exchange/blob/master/MultiServerReadme.md
 
 •Installer with minimal steps:
 
