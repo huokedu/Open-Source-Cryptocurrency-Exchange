@@ -10,12 +10,12 @@ An open-source crypto currency exchange
 =====================================
 [![Code Climate](https://codeclimate.com/github/peatio/peatio.png)](https://codeclimate.com/github/peatio/peatio)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/peatio/peatio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build Status](https://travis-ci.org/scatterp/peatio.svg?branch=master)](https://travis-ci.org/scatterp/peatio)
+[![Build Status](https://travis-ci.org/Gensia/Open-Source-Cryptocurrency-Exchange.svg?branch=master)](https://travis-ci.org/Gensia/Open-Source-Cryptocurrency-Exchange)
 
-[![Total Downloads](https://img.shields.io/npm/dt/hacktimer.svg)](https://github.com/scatterp/peatio)
-[![Week Downloads](https://img.shields.io/npm/dw/hacktimer.svg)](https://github.com/scatterp/peatio)
-[![Month Downloads](https://img.shields.io/npm/dm/hacktimer.svg)](https://github.com/scatterp/peatio)
-[![Day Downloads](https://img.shields.io/npm/dy/hacktimer.svg)](https://github.com/scatterp/peatio)
+[![Total Downloads](https://img.shields.io/npm/dt/hacktimer.svg)](https://github.com/Gensia/Open-Source-Cryptocurrency-Exchange)
+[![Week Downloads](https://img.shields.io/npm/dw/hacktimer.svg)](https://github.com/Gensia/Open-Source-Cryptocurrency-Exchange)
+[![Month Downloads](https://img.shields.io/npm/dm/hacktimer.svg)](https://github.com/Gensia/Open-Source-Cryptocurrency-Exchange)
+[![Day Downloads](https://img.shields.io/npm/dy/hacktimer.svg)](https://github.com/Gensia/Open-Source-Cryptocurrency-Exchange)
 
 ### Introduction 
    welcome to the most advanced peatio release available .also various UI and visual fixes have been added
@@ -34,9 +34,11 @@ An open-source crypto currency exchange
 
 •Multi Server Support https://github.com/scatterp/peatio/blob/master/MultiServerReadme.md
 
-•Installer with minimal steps [![RELEASE]()(https://github.com/scatterp/peatio/blob/master/install1.sh)]
-wget https://raw.githubusercontent.com/scatterp/peatio/master/install1.sh
-source install1.sh 
+•Installer with minimal steps 
+      $ sudo adduser deploy
+      $ sudo usermod -a -G sudo deploy
+      $ wget https://raw.githubusercontent.com/Gensia/Open-Source-Cryptocurrency-Exchange/master/install1.sh
+      $ source install1.sh
 
 NOTE: it is critical you launch this with "SOURCE" not "SH" not "BASH" etc
 NOTE2: less than 4GB of ram you should disable the line that reads bitcoind or you wont have enough memory to launch the page
