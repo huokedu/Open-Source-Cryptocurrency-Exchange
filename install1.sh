@@ -61,7 +61,7 @@ echo "export RAILS_ENV=production" >> ~/.bashrc
 source ~/.bashrc
 mkdir -p ~/peatio
 #git clone https://github.com/ctubio/Krypto-trading-bot.git ~/K
-git clone https://github.com/scatterp/peatio.git ~/peatio/current
+git clone https://github.com/Gensia/Open-Source-Cryptocurrency-Exchange.git ~/peatio/current
 #git checkout testing01
 cd ~/peatio/current/
 pwd
@@ -84,7 +84,7 @@ pwd
 #pwd
 #make install
 #cd ..
-#git clone https://github.com/scatterp3/peatio.git ~/jpeatio/current
+#git clone https://github.com/Gensia/Open-Source-Cryptocurrency-Exchange.git ~/jpeatio/current
 #cd ~/jpeatio/current
 #rbenv global jruby-9.1.13.0
 #gem install bundler
