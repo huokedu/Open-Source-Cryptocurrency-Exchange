@@ -1,18 +1,12 @@
 An open-source crypto currency exchange
 =====================================
 
-**I'M Back**
-
-[![Code Climate](https://codeclimate.com/github/peatio/peatio.png)](https://codeclimate.com/github/peatio/peatio)
-[![Build Status](https://travis-ci.org/peatio/peatio.png?branch=master)](https://travis-ci.org/peatio/peatio)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/peatio/peatio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 Peatio is a free and open-source crypto currency exchange implementation with the Rails framework and other cutting-edge technology.
 
 
 ### Mission
 
-Our mission is to build the world best open-source crypto currency exchange with a high performance trading engine and safety which can be trusted and enjoyed by users. Additionally we want to move the crypto currency exchange technology forward by providing support and add new features. We are helping people to build easy their own exchange around the world.
+Our mission is to build the world best open-source crypto currency exchange with a high performance trading engine and security which can be trusted and enjoyed by users. Additionally we want to move the crypto currency exchange technology forward by providing support and add new features. We are helping people to build easy their own exchange around the world.
 
 Help is greatly appreciated, feel free to submit pull-requests or open issues.
 
@@ -51,7 +45,6 @@ You must know what you're doing, there's no shortcut. Please get prepared before
 * Industry standard security out of box.
 * Active community behind.
 * Free and open-source.
-* Created and maintained by [Peatio open-source group](http://peatio.com).
 
 
 ### Known Exchanges using Peatio
@@ -112,7 +105,7 @@ Peatio front-end based Bootstrap 3.0 version and Sass, and you can custom exchan
 
 Want to report a bug, request a feature, contribute or translate Peatio?
 
-* Browse our [issues](https://github.com/peatio/peatio/issues), comment on proposals, report bugs.
+* Browse our [issues](https://github.com/Gensia/Open-Source-Cryptocurrency-Exchange/issues), comment on proposals, report bugs.
 * Clone the peatio repo, make some changes according to our development guidelines and issue a pull-request with your changes.
 * Anything you want to tell us please send it to [community@peatio.com](mailto:community@peatio.com)
 * If you need technical support or customization service, contact us: [sales@peatio.com](mailto:sales@peatio.com)
