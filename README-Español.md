@@ -55,6 +55,7 @@ Debes saber lo que estas haciendo, no hay atajos. Por favor, prepararse para con
 
 * [Yunbi Exchange](https://yunbi.com) - A crypto-currency exchange funded by BitFundPE
 * [One World Coin](https://oneworldcoin.com)
+* [Golix](https://golix.com/) - Cryptocurrency Exchange in Zimbabwe
 * [Bitspark](https://bitspark.io) - Bitcoin Exchange in Hong Kong
 * [MarsX.io](https://acx.io) - Australian Cryptocurrency Exchange
 
