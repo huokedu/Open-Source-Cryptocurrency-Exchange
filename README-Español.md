@@ -120,8 +120,15 @@ Peatio is released under the terms of the MIT license. See [http://peatio.mit-li
 
 ### Donar
 
-**También puedes donarme a mi que esta realizando el soporte en español, para de vez en cuando comprarme un cafe**
-* Direccion Bitcoin: [1MFVGu75SP7CvQM7VZCbNeznfxKh2sPUCT](https://blockchain.info/address/1MFVGu75SP7CvQM7VZCbNeznfxKh2sPUCT)
+**Cada satoshi de tu amable donación va al trabajo continuo de hacer Peatio más increíble.**
+
+
+                     Donar Bitcoin: 1f1incoxP154TEh4JMdCztnBhmZXVmgcj
+                     Donar Bitcoin Cash: 1P4KMGuaHN4x2hD7VRzf5ECoUyjYtT4jAp
+                     Donar Dash: Xyu1UHuhEUZaPTcR1UqCBYgoDhQpjs9j3L
+                     Donar Etherium: 0x8d96D5804E457aF4BF46Ed225fCe72E740De6EC5
+                     Donar Litecoin: LUGrMvJ1wQ4i2Q3mcsgn2AsKJrxhgA8TpG
+                     
 
 ### ¿Qué es Peatio?
 [Peatio](http://en.wikipedia.org/wiki/Pixiu) (Chinese: 貔貅) is a Chinese mythical hybrid creature considered to be a very powerful protector to practitioners of Feng Shui.
