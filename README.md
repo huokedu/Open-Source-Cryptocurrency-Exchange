@@ -8,7 +8,7 @@ SPECS:
 
 An open-source crypto currency exchange
 =====================================
-[![Code Climate](https://codeclimate.com/github/peatio/peatio.png)](https://codeclimate.com/github/peatio/peatio)
+[![Code Climate](https://codeclimate.com/github/Gensia/Open-Source-Cryptocurrency-Exchange.png)](https://codeclimate.com/github/Gensia/Open-Source-Cryptocurrency-Exchange)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/peatio/peatio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/Gensia/Open-Source-Cryptocurrency-Exchange.svg?branch=master)](https://travis-ci.org/Gensia/Open-Source-Cryptocurrency-Exchange)
 
