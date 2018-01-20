@@ -34,6 +34,7 @@ An open-source crypto currency exchange
 •Multi Server Support https://github.com/scatterp/peatio/blob/master/MultiServerReadme.md
 
 •Installer with minimal steps:
+
       sudo adduser deploy
       sudo usermod -a -G sudo deploy
       wget https://raw.githubusercontent.com/Gensia/Open-Source-Cryptocurrency-Exchange/master/install1.sh
