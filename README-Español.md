@@ -110,10 +110,10 @@ El front-end de Peatio esta basado en la versión 3.0 de Bootstrap y Sass, y ust
 
 ¿Quieres reportar un error, solicitar una función, contribuir o traducir Peatio?
 
-* Entra a [issues Peatio Oficial](https://github.com/peatio/peatio/issues) para comentar, proponer o reportar bugs en ingles
+* Entra a [issues Peatio Oficial](https://github.com/Gensia/Open-Source-Cryptocurrency-Exchange/issues) para comentar, proponer o reportar bugs en ingles
 * Entra a [issues en este Fork en español](https://github.com/ShadowMyst/peatio/issues) para comentar, proponer o reportar bugs en español
 * Clona este repositorio, haz cambios que creas sean necesarios y haz un pull-requests.
-* Necesitas algo que decir directamente, puedes enviarme un correo a [theshadowmyst@gmail.com](mailto:theshadowmyst@gmail.com) para el soporte en español o directamente a la comunidad de Peatio al correo [community@peatio.com](mailto:community@peatio.com).
+
 ### Licencia.
 
 Peatio is released under the terms of the MIT license. See [http://peatio.mit-license.org](http://peatio.mit-license.org) for more information.
