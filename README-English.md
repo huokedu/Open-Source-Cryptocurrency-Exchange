@@ -58,6 +58,7 @@ You must know what you're doing, there's no shortcut. Please get prepared before
 
 * [Yunbi Exchange](https://yunbi.com) - A crypto-currency exchange funded by BitFundPE
 * [One World Coin](https://oneworldcoin.com)
+* [Golix](https://golix.com/) - Cryptocurrency Exchange in Zimbabwe
 * [Bitspark](https://bitspark.io) - Bitcoin Exchange in Hong Kong
 * [MarsX.io](https://acx.io) - Australian Cryptocurrency Exchange
 
@@ -126,13 +127,18 @@ Peatio is released under the terms of the MIT license. See [http://peatio.mit-li
 
 **Every satoshi of your kind donation goes into the ongoing work of making Peatio more awesome.**
 
-**ShadowMyst Fork-donate** address [1MFVGu75SP7CvQM7VZCbNeznfxKh2sPUCT](https://blockchain.info/address/1MFVGu75SP7CvQM7VZCbNeznfxKh2sPUCT)
+                         Bitcoin Donate Address: 1f1incoxP154TEh4JMdCztnBhmZXVmgcj
+                         Bitcoin Cash Donate Address: 1P4KMGuaHN4x2hD7VRzf5ECoUyjYtT4jAp
+                         Dash Donate Address: Xyu1UHuhEUZaPTcR1UqCBYgoDhQpjs9j3L
+                         Etherium Donate Address: 0x8d96D5804E457aF4BF46Ed225fCe72E740De6EC5
+                         Litecoin Donate Address: LUGrMvJ1wQ4i2Q3mcsgn2AsKJrxhgA8TpG
+                          
+                          
 
 
 ### What is Peatio?
 
 [Peatio](http://en.wikipedia.org/wiki/Pixiu) (Chinese: 貔貅) is a Chinese mythical hybrid creature considered to be a very powerful protector to practitioners of Feng Shui.
 
-**[This illustration copyright for Peatio Team]**
 
 ![logo](public/peatio.png)
